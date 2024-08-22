@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Developer Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>matar</title>
+</head>
+
+<body>
+    <div class="sidebar" id="sidebar">
+
+        <div>
+
+            <h1 class="logo">
+                Osman Matar
+            </h1>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li class="active ">
+                    <a class="active " href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>
+                copy&copy; All Rights Reserved 2024
+            </p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="wrapper-header">
+            <div class="main-title">
+                <h2>
+                    Contact
+                </h2>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="btn-group">
+                <!-- <button class="btnshape " onclick="toggleDarkMode()" type="button">Dy/Nt</button> -->
+                <!-- <button class="btnshape" onclick="toggleSideBar()" type="button">Menu</button> -->
+                <i class="fa fa-bars toggle" style=" font-size: 29px ;" onclick="toggleSideBar()"></i>
+                <i class="fa fa-moon" onclick="toggleDarkMode()" style="display: block; padding: 10px ;"></i>
+            </div>
+        </div>
+        <div class="about-title">
+            <h3>
+                Send Me An <span>Email <i class="fa fa-arrow-down up-and-down  "></i> </span>
+            </h3>
+        </div>
+
+        <div class="contact-body">
+            <form action="post ">
+                <div class="input-group">
+                    <input class="input-50 " type="text" name="first-name" id="first" placeholder="First Name" required>
+                    <input class="input-50 " type="text" name="last-name" id="last" placeholder="Last Name" required>
+                </div>
+                <div class="input-group">
+                    <input class="input-50 " type="mail" name="mail" id="mail" placeholder="Email" required>
+                    <input class="input-50" type="password" name="password" id="password" placeholder="Password"
+                        erquired>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" type="text " id="message" placeholder="Message Here "></textarea>
+                </div>
+                <div class="about-btn submit-btn ">
+                    <a href="contact.html"> Submit </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
